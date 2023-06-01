@@ -1,0 +1,28 @@
+{
+  "name": "ergnuor/criteria",
+  "description": "",
+  "keywords": ["criteria"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denis Tarasov",
+      "email": "brokeneye@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "doctrine/collections": "^2.1",
+    "psr/container": "^2.0"
+  },
+  "suggest": {
+    "doctrine/dbal": "For Doctrine DBAL implementations",
+    "doctrine/orm": "For Doctrine ORM implementations"
+  },
+  "autoload": {
+    "psr-4": {"Ergnuor\\Criteria\\": "src/"}
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
